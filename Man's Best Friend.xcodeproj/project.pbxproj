@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A008C901B03965100C405CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008C8F1B03965100C405CE /* main.m */; };
+		5A008C931B03965100C405CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008C921B03965100C405CE /* AppDelegate.m */; };
+		5A008C961B03965100C405CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008C951B03965100C405CE /* ViewController.m */; };
+		5A008C991B03965100C405CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A008C971B03965100C405CE /* Main.storyboard */; };
+		5A008C9B1B03965100C405CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A008C9A1B03965100C405CE /* Images.xcassets */; };
+		5A008C9E1B03965100C405CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A008C9C1B03965100C405CE /* LaunchScreen.xib */; };
+		5A008CAA1B03965200C405CE /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008CA91B03965200C405CE /* Man_s_Best_FriendTests.m */; };
+		5A008CB51B03981900C405CE /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008CB41B03981900C405CE /* MBFDog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A008CA41B03965200C405CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A008C821B03965100C405CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A008C891B03965100C405CE;
+			remoteInfo = "Man's Best Friend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A008C8A1B03965100C405CE /* Man's Best Friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Man's Best Friend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A008C8E1B03965100C405CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A008C8F1B03965100C405CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A008C911B03965100C405CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A008C921B03965100C405CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A008C941B03965100C405CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A008C951B03965100C405CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A008C981B03965100C405CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A008C9A1B03965100C405CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5A008C9D1B03965100C405CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5A008CA31B03965200C405CE /* Man's Best FriendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Man's Best FriendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A008CA81B03965200C405CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A008CA91B03965200C405CE /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		5A008CB31B03981900C405CE /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
+		5A008CB41B03981900C405CE /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A008C871B03965100C405CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008CA01B03965200C405CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A008C811B03965100C405CE = {
+			isa = PBXGroup;
+			children = (
+				5A008C8C1B03965100C405CE /* Man's Best Friend */,
+				5A008CA61B03965200C405CE /* Man's Best FriendTests */,
+				5A008C8B1B03965100C405CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A008C8B1B03965100C405CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A008C8A1B03965100C405CE /* Man's Best Friend.app */,
+				5A008CA31B03965200C405CE /* Man's Best FriendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A008C8C1B03965100C405CE /* Man's Best Friend */ = {
+			isa = PBXGroup;
+			children = (
+				5A008C911B03965100C405CE /* AppDelegate.h */,
+				5A008C921B03965100C405CE /* AppDelegate.m */,
+				5A008C941B03965100C405CE /* ViewController.h */,
+				5A008C951B03965100C405CE /* ViewController.m */,
+				5A008CB31B03981900C405CE /* MBFDog.h */,
+				5A008CB41B03981900C405CE /* MBFDog.m */,
+				5A008C971B03965100C405CE /* Main.storyboard */,
+				5A008C9A1B03965100C405CE /* Images.xcassets */,
+				5A008C9C1B03965100C405CE /* LaunchScreen.xib */,
+				5A008C8D1B03965100C405CE /* Supporting Files */,
+			);
+			path = "Man's Best Friend";
+			sourceTree = "<group>";
+		};
+		5A008C8D1B03965100C405CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A008C8E1B03965100C405CE /* Info.plist */,
+				5A008C8F1B03965100C405CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A008CA61B03965200C405CE /* Man's Best FriendTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A008CA91B03965200C405CE /* Man_s_Best_FriendTests.m */,
+				5A008CA71B03965200C405CE /* Supporting Files */,
+			);
+			path = "Man's Best FriendTests";
+			sourceTree = "<group>";
+		};
+		5A008CA71B03965200C405CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A008CA81B03965200C405CE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A008C891B03965100C405CE /* Man's Best Friend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A008CAD1B03965200C405CE /* Build configuration list for PBXNativeTarget "Man's Best Friend" */;
+			buildPhases = (
+				5A008C861B03965100C405CE /* Sources */,
+				5A008C871B03965100C405CE /* Frameworks */,
+				5A008C881B03965100C405CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Man's Best Friend";
+			productName = "Man's Best Friend";
+			productReference = 5A008C8A1B03965100C405CE /* Man's Best Friend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A008CA21B03965200C405CE /* Man's Best FriendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A008CB01B03965200C405CE /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */;
+			buildPhases = (
+				5A008C9F1B03965200C405CE /* Sources */,
+				5A008CA01B03965200C405CE /* Frameworks */,
+				5A008CA11B03965200C405CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A008CA51B03965200C405CE /* PBXTargetDependency */,
+			);
+			name = "Man's Best FriendTests";
+			productName = "Man's Best FriendTests";
+			productReference = 5A008CA31B03965200C405CE /* Man's Best FriendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A008C821B03965100C405CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Richard Tyran";
+				TargetAttributes = {
+					5A008C891B03965100C405CE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					5A008CA21B03965200C405CE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5A008C891B03965100C405CE;
+					};
+				};
+			};
+			buildConfigurationList = 5A008C851B03965100C405CE /* Build configuration list for PBXProject "Man's Best Friend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A008C811B03965100C405CE;
+			productRefGroup = 5A008C8B1B03965100C405CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A008C891B03965100C405CE /* Man's Best Friend */,
+				5A008CA21B03965200C405CE /* Man's Best FriendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A008C881B03965100C405CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008C991B03965100C405CE /* Main.storyboard in Resources */,
+				5A008C9E1B03965100C405CE /* LaunchScreen.xib in Resources */,
+				5A008C9B1B03965100C405CE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008CA11B03965200C405CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A008C861B03965100C405CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008C961B03965100C405CE /* ViewController.m in Sources */,
+				5A008C931B03965100C405CE /* AppDelegate.m in Sources */,
+				5A008CB51B03981900C405CE /* MBFDog.m in Sources */,
+				5A008C901B03965100C405CE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A008C9F1B03965200C405CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A008CAA1B03965200C405CE /* Man_s_Best_FriendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A008CA51B03965200C405CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A008C891B03965100C405CE /* Man's Best Friend */;
+			targetProxy = 5A008CA41B03965200C405CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A008C971B03965100C405CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A008C981B03965100C405CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A008C9C1B03965100C405CE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A008C9D1B03965100C405CE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A008CAB1B03965200C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5A008CAC1B03965200C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A008CAE1B03965200C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Man's Best Friend/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A008CAF1B03965200C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Man's Best Friend/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A008CB11B03965200C405CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+			};
+			name = Debug;
+		};
+		5A008CB21B03965200C405CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Man's Best FriendTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Man's Best Friend.app/Man's Best Friend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A008C851B03965100C405CE /* Build configuration list for PBXProject "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008CAB1B03965200C405CE /* Debug */,
+				5A008CAC1B03965200C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A008CAD1B03965200C405CE /* Build configuration list for PBXNativeTarget "Man's Best Friend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008CAE1B03965200C405CE /* Debug */,
+				5A008CAF1B03965200C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A008CB01B03965200C405CE /* Build configuration list for PBXNativeTarget "Man's Best FriendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A008CB11B03965200C405CE /* Debug */,
+				5A008CB21B03965200C405CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A008C821B03965100C405CE /* Project object */;
+}

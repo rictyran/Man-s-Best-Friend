@@ -15,6 +15,12 @@
 		5A008C9E1B03965100C405CE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A008C9C1B03965100C405CE /* LaunchScreen.xib */; };
 		5A008CAA1B03965200C405CE /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008CA91B03965200C405CE /* Man_s_Best_FriendTests.m */; };
 		5A008CB51B03981900C405CE /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008CB41B03981900C405CE /* MBFDog.m */; };
+		5A008CE91B04F32900C405CE /* bigdog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008CE81B04F32900C405CE /* bigdog.jpg */; };
+		5A008CEE1B062CC300C405CE /* Bo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008CEA1B062CC300C405CE /* Bo.jpg */; };
+		5A008CEF1B062CC300C405CE /* BorderCollie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008CEB1B062CC300C405CE /* BorderCollie.jpg */; };
+		5A008CF01B062CC300C405CE /* ItalianGreyhound.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008CEC1B062CC300C405CE /* ItalianGreyhound.jpg */; };
+		5A008CF11B062CC300C405CE /* JRT.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A008CED1B062CC300C405CE /* JRT.jpg */; };
+		5A008CF41B0643B400C405CE /* MBFPuppy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A008CF31B0643B400C405CE /* MBFPuppy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +49,13 @@
 		5A008CA91B03965200C405CE /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
 		5A008CB31B03981900C405CE /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBFDog.h; path = ../MBFDog.h; sourceTree = "<group>"; };
 		5A008CB41B03981900C405CE /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBFDog.m; path = ../MBFDog.m; sourceTree = "<group>"; };
+		5A008CE81B04F32900C405CE /* bigdog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bigdog.jpg; sourceTree = "<group>"; };
+		5A008CEA1B062CC300C405CE /* Bo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bo.jpg; sourceTree = "<group>"; };
+		5A008CEB1B062CC300C405CE /* BorderCollie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BorderCollie.jpg; sourceTree = "<group>"; };
+		5A008CEC1B062CC300C405CE /* ItalianGreyhound.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ItalianGreyhound.jpg; sourceTree = "<group>"; };
+		5A008CED1B062CC300C405CE /* JRT.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = JRT.jpg; sourceTree = "<group>"; };
+		5A008CF21B0643B400C405CE /* MBFPuppy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFPuppy.h; sourceTree = "<group>"; };
+		5A008CF31B0643B400C405CE /* MBFPuppy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFPuppy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +103,8 @@
 				5A008C951B03965100C405CE /* ViewController.m */,
 				5A008CB31B03981900C405CE /* MBFDog.h */,
 				5A008CB41B03981900C405CE /* MBFDog.m */,
+				5A008CF21B0643B400C405CE /* MBFPuppy.h */,
+				5A008CF31B0643B400C405CE /* MBFPuppy.m */,
 				5A008C971B03965100C405CE /* Main.storyboard */,
 				5A008C9A1B03965100C405CE /* Images.xcassets */,
 				5A008C9C1B03965100C405CE /* LaunchScreen.xib */,
@@ -101,6 +116,11 @@
 		5A008C8D1B03965100C405CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A008CEA1B062CC300C405CE /* Bo.jpg */,
+				5A008CEB1B062CC300C405CE /* BorderCollie.jpg */,
+				5A008CEC1B062CC300C405CE /* ItalianGreyhound.jpg */,
+				5A008CED1B062CC300C405CE /* JRT.jpg */,
+				5A008CE81B04F32900C405CE /* bigdog.jpg */,
 				5A008C8E1B03965100C405CE /* Info.plist */,
 				5A008C8F1B03965100C405CE /* main.m */,
 			);
@@ -204,9 +224,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A008CEE1B062CC300C405CE /* Bo.jpg in Resources */,
 				5A008C991B03965100C405CE /* Main.storyboard in Resources */,
+				5A008CE91B04F32900C405CE /* bigdog.jpg in Resources */,
 				5A008C9E1B03965100C405CE /* LaunchScreen.xib in Resources */,
 				5A008C9B1B03965100C405CE /* Images.xcassets in Resources */,
+				5A008CEF1B062CC300C405CE /* BorderCollie.jpg in Resources */,
+				5A008CF11B062CC300C405CE /* JRT.jpg in Resources */,
+				5A008CF01B062CC300C405CE /* ItalianGreyhound.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +253,7 @@
 				5A008C931B03965100C405CE /* AppDelegate.m in Sources */,
 				5A008CB51B03981900C405CE /* MBFDog.m in Sources */,
 				5A008C901B03965100C405CE /* main.m in Sources */,
+				5A008CF41B0643B400C405CE /* MBFPuppy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
